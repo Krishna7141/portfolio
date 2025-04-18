@@ -55,8 +55,8 @@ export const projectsData = [
     {
         image: Project3,
         title: "Personal Portfolio",
-        live: "",
-        src: "",
+        live: "https://krishnavamsi-portfolio.vercel.app/",
+        src: "https://github.com/Krishna7141/portfolio",
         stack: "React.js, TailwindCSS, JavaScript",
     },
     {
