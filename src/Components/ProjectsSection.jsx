@@ -27,6 +27,17 @@ const ProjectsSection = () => {
                                             <IoIosLink className='text-white' size={20}/>
                                             <p>Live Link</p>
                                         </Link>
+                                        {project.exe && (
+                                            <a
+                                            href={project.exe}
+                                            download
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="w-fit flex gap-2 items-center justify-center p-2 px-3 bg-green-600 font-medium hover:bg-green-900 rounded-lg text-white mt-2"
+                                          >
+                                            Download App (.exe)
+                                          </a>
+                                        )}
                                         {/* <Link className='w-1/2 flex justify-start' to={project.src} target='_blank'><FaGithub className='text-[#000080]' size={25}/></Link> */}
                                     </div>
                                     <p className=''><span className='font-semibold text-[#000080]'>Tech Stack:</span> {project.stack}</p>
