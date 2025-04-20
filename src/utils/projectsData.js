@@ -79,5 +79,6 @@ export const projectsData = [
         live: "https://real-hospital-landing-bhxkno5xf.vercel.app",
         src: "https://github.com/Krishna7141/Real_Hospital_Management_System",
         stack: "Python, Tkinter, SQLite"
-      }
+      },
+      
 ];
