@@ -73,4 +73,11 @@ export const projectsData = [
         src: "https://github.com/Krishna7141/weather-app",
         stack: "HTML, CSS, JavaScript, OpenWeather API",
     },
-]
+    {
+        image: "https://raw.githubusercontent.com/Krishna7141/Real_Hospital_Management_System/main/screenshots/main_window.png",
+        title: "Real Hospital Management System",
+        live: "https://github.com/Krishna7141/Real_Hospital_Management_System",
+        src: "https://github.com/Krishna7141/Real_Hospital_Management_System",
+        stack: "Python, Tkinter, SQLite"
+      }
+];
