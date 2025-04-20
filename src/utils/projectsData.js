@@ -78,7 +78,7 @@ export const projectsData = [
         title: "Real Hospital Management System",
         live: "https://real-hospital-landing-bhkxno5xf.vercel.app/",
         src: "https://github.com/Krishna7141/Real_Hospital_Management_System",
-        exe: "https://github.com/Krishna7141/Real_Hospital_Management_System/raw/main/dist/HospitalApp.exe",
+        exe: "https://github.com/Krishna7141/Real_Hospital_Management_System/raw/main/dist/main.exe",
         stack: "Python, Tkinter, SQLite"
       },
       
