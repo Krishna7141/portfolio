@@ -23,10 +23,14 @@ const ProjectsSection = () => {
                                 <div className='flex flex-col gap-3'>
                                     <p className='text-lg font-semibold'>{project.title}</p>
                                     <div className='flex items-center justify-center gap-3'>
-                                        <Link className='w-fit flex gap-2 items-center justify-center p-2 px-3 bg-blue-600 font-medium hover:bg-blue-900 rounded-lg text-white' to={project.live} target='_blank'>
-                                            <IoIosLink className='text-white' size={20}/>
-                                            <p>Live Link</p>
-                                        </Link>
+                                    <a
+                                    href={project.live}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-fit flex gap-2 items-center justify-center p-2 px-3 bg-blue-600 font-medium hover:bg-blue-900 rounded-lg text-white"
+                                    >
+                                        🔗 Live Link
+                                        </a>
                                         {project.exe && (
                                             <a
                                             href={project.exe}
@@ -38,8 +42,20 @@ const ProjectsSection = () => {
                                             Download App (.exe)
                                           </a>
                                         )}
-                                        {/* <Link className='w-1/2 flex justify-start' to={project.src} target='_blank'><FaGithub className='text-[#000080]' size={25}/></Link> */}
+                                        <a
+                                        href={project.src}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-fit flex gap-2 items-center justify-center p-2 px-3 bg-gray-700 font-medium hover:bg-gray-900 rounded-lg text-white"
+                                        >
+                                            🐙 GitHub
+                                            </a>
                                     </div>
+                                    {project.title.includes("QuickKart") && (
+                                        <span className="inline-block bg-yellow-400 text-black text-xs font-semibold px-2 py-1 rounded-md mb-1">
+                                            🛠 In Progress
+                                            </span>
+                                        )}
                                     <p className=''><span className='font-semibold text-[#000080]'>Tech Stack:</span> {project.stack}</p>
                                     {/* <div className='h-2 w-10 bg-green-700 opacity-0 group-hover:opacity-100'></div> */}
                                 </div>

@@ -81,5 +81,12 @@ export const projectsData = [
         exe: "https://github.com/Krishna7141/Real_Hospital_Management_System/raw/main/dist/main.exe",
         stack: "Python, Tkinter, SQLite"
       },
+      {
+        image: "https://raw.githubusercontent.com/Krishna7141/QuickKart/main/client/public/assets/quickkart.png",
+        title: "QuickKart – E-commerce App",
+        live: "https://capable-kangaroo-3748e3.netlify.app",
+        src: "https://github.com/Krishna7141/QuickKart",
+        stack: "React.js, Node.js, Express.js, MongoDB, Tailwind CSS"
+      },      
       
 ];
