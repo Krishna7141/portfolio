@@ -82,11 +82,11 @@ export const projectsData = [
         stack: "Python, Tkinter, SQLite"
       },
       {
-        image: "image: "https://raw.githubusercontent.com/Krishna7141/QuickKart/main/quickkart.png"
+        image: "/src/assets/quickkart.png",
         title: "QuickKart – E-commerce App",
         live: "https://capable-kangaroo-3748e3.netlify.app",
         src: "https://github.com/Krishna7141/QuickKart",
         stack: "React.js, Node.js, Express.js, MongoDB, Tailwind CSS"
-      },      
+      }      
       
 ];
