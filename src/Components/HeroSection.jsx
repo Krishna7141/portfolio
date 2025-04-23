@@ -53,7 +53,7 @@ const HeroSection = () => {
                     <p className='text-xl text-justify'>An enthusiastic learner and future Software Engineer, passionate about building efficient systems and exploring the ever-evolving tech landscape.</p>
                     <div className='flex gap-4'>
                         <button className='border p-2 hover:bg-blue-900 bg-blue-700 rounded-lg text-white text-lg px-4 w-fit text-center'><a href='#contact'>Contact Me</a></button>
-                        <a href='' target='_blank' className='border p-2 hover:bg-gray-400 bg-gray-500 rounded-lg text-white text-lg px-4 w-fit text-center'>Resume</a>
+                        <a href='/Krishna_Vamsi_Resume.pdf' target='_blank' className='border p-2 hover:bg-blue-900 bg-blue-700 rounded-lg text-white text-lg px-4 w-fit text-center'>📄Resume</a>
                     </div>
                 </div>
             </div>
@@ -103,8 +103,8 @@ const HeroSection = () => {
                     {/* <p className='text-base text-justify'>A Student Working on Actively Learning the Skills Required to be an Efficient Software Engineer, Flexible to Learn New Technologies.</p> */}
                     <p className='text-base text-justify'>An enthusiastic learner and future Software Engineer, passionate about building efficient systems and exploring the ever-evolving tech landscape.</p>
                     <div className='flex gap-4'>
-                        <button className='border p-2 hover:bg-blue-900 bg-blue-700 rounded-lg text-white text-lg px-4 w-fit text-center'><a href='#contact'>Contact Me</a></button>
-                        <a href='' target='_blank' className='border p-2 hover:bg-gray-400 bg-gray-500 rounded-lg text-white text-lg px-4 w-fit text-center'>Resume</a>
+                         <a href="#contact" className="border p-2 hover:bg-blue-900 bg-blue-700 rounded-lg text-white text-lg px-4 w-fit text-center">Contact Me</a>
+                         <a href="/Krishna_Vamsi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="border p-2 hover:bg-blue-900 bg-blue-700 rounded-lg text-white text-lg px-4 w-fit text-center">📄Resume</a>
                     </div>    
                 </div>
             </div>
