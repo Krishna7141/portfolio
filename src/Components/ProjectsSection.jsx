@@ -31,16 +31,6 @@ const ProjectsSection = () => {
                                     >
                                         🔗 Live Link
                                         </a>
-                                        {project.exe && (
-                                            <a
-                                            href={project.exe}
-                                            download
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="w-fit flex gap-2 items-center justify-center p-2 px-3 bg-green-600 font-medium hover:bg-green-900 rounded-lg text-white mt-2"                                         
-                                             >
-                                          </a>
-                                        )}
                                         <a
                                         href={project.src}
                                         target="_blank"
