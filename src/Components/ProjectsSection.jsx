@@ -39,7 +39,7 @@ const ProjectsSection = () => {
                                             rel="noreferrer"
                                             className="w-fit flex gap-2 items-center justify-center p-2 px-3 bg-green-600 font-medium hover:bg-green-900 rounded-lg text-white mt-2"
                                           >
-                                            Download App (.exe)
+        
                                           </a>
                                         )}
                                         <a
